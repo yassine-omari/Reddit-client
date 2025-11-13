@@ -36,7 +36,6 @@ header .title {
 }
 
 #input-field {
-    flex: 1 1 250px; /* medium input size */
     padding: 10px;
     font-size: 1rem;
     border-radius: 6px;
@@ -45,6 +44,7 @@ header .title {
     transition: border-color 0.3s;
     min-width: 150px;
     max-width: 700px;
+    width: 700px;
 }
 
 #input-field:focus {
